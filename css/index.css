@@ -1,0 +1,306 @@
+@media screen and (min-width: 801px){
+    
+}
+
+
+/*-------------------------------------------RESET DU NAVIGATEUR----------------------------------*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*-----------------------------------------------FIN_RESET----------------------------------------*/
+
+/*________________________________________________GENERAL_________________________________________*/
+
+body, footer{
+    color: #002C84;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.85rem;
+}
+
+ul li{
+    list-style: none;
+}
+
+/*_______________________________________________FIN_GENERAL______________________________________*/
+
+
+/*_________________________________________________HEADER_________________________________________*/
+
+
+/*REPARTITION DE L'ESPACEMENT ENTRE LE LOGO ET LA NAVBAR + CENTRAGE DES LIENS PAR RAPPORT AU LOGO*/
+
+.header{
+    display: flex;
+    gap: 10vw; /*Espace entre logo/navbar */
+    background-color: #89C6FF;
+    align-items: center;
+}
+
+/*POSITION ET DIMENSION DU LOGO + MARGE A GAUCHE POUR PLUS DE LISIBILITE*/
+#logo{
+    
+    justify-content: flex-start;
+    width: 9%;
+    height: auto;
+    margin-left: 5%;
+}
+
+/*DISPOSITION DES LIENS DE LA NAVBAR*/
+.navList{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    gap: 10vw; /*Espacement entre les liens*/
+    font-size: 0.85rem;
+}
+
+/*_________________________________________________FIN_HEADER_____________________________________*/
+
+/*-----------------------------------------------BANNIERE----------------------------------------*/
+
+#banniere{
+    width: 100%;    /*Prendre toute la largeur*/
+    height: 22rem;   /*Gérer la hauteur*/
+    max-width: 100%;
+    opacity: 90%;
+    object-fit: cover;
+    margin-top: 1rem;
+}
+
+/*--------------------------------------------FIN_BANNIERE---------------------------------------*/
+
+/*___________________________________________SECTION DESCRIPTION_________________________________*/
+
+h1, .h1mention{                                 /*Même paramètre de h1 pour toutes les pages*/
+    text-align: center;
+    margin: 1.5rem auto;
+    font-size: 1.5rem;
+    text-decoration: underline;
+
+}
+.description{
+    /*définition des marges*/
+    margin-top: 5%;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 10%;
+    /*réajuster les marges si necessaire*/
+    line-height: 1.8rem; /*interligne*/
+    text-align: justify;
+}
+
+/*_________________________________________FIN_SECTION_DESCRIPTION___________________________________*/
+
+/*---------------------------------------SECTION NOS SERVICES-----------------------------------------*/
+h2{
+    margin: 0% 5% 2% 5%; /*marge: haut,droite,bas,gauche*/
+    font-size: 1rem;
+    text-decoration: underline;
+}
+.NosServices{
+    /*définition des marges*/
+    margin: 0% 8% 0% 8%;
+    display: flex;
+    align-items: center;
+    gap: 5rem;
+    line-height: 2rem;
+}
+
+.ListServiceItalic{
+    margin-left: 5%;
+    font-size: small;
+    font-style: italic;
+}
+
+#ImageStock{
+    width: 22%;
+    height: auto;
+}
+ul li {
+    list-style: none;
+}
+/*---------------------------------------FIN_SECTION_NOS_SERVICES----------------------------------*/
+
+/*________________________________SECTION DESCRIPTION SERVICE DE FILMAGE______________________________*/
+.DescriptionFilmage{
+    margin: 5% 15% 10% 15%;
+}
+h3{
+    margin-bottom: 8%;
+    text-align: center;
+    font-size: 0.95rem;
+}
+.filmage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5vw;
+    text-align: justify;
+    line-height: 1.8rem;
+}
+#paletteFilme{
+    width: 30%;
+    height: auto;
+}
+/*_______________________________FIN_SECTION_DESCRIPTION_SERVICE_DE_FILMAGE_______________________________*/
+
+/*------------------------------------------------FOOTER--------------------------------------------------*/
+
+.footer{
+    background-color: #89C6FF;
+    padding: 3%;
+    display: flex;
+    justify-content:center;
+    align-items: baseline;
+    gap: 0.5rem;
+}
+.mentions a{
+    line-height: 1.2rem;
+    text-decoration: none;
+}
+/*----------------------------------------------FIN_FOOTER-----------------------------------------------*/
+
+/*---STYLE DES LIENS---*/
+
+a:hover{
+    color: rgb(153, 0, 255);
+    font-size: 0.95rem;
+}
+
+a:active{
+    color: rgb(255, 105, 202);
+}
+
+
+
+/*____________________________________________________PAGE CONTACT_______________________________________________________________*/
+
+.PageContact, .PageContact2{
+    text-align: center;
+    line-height: 5vh;
+    margin-top: 4vh;
+}
+.PageContact{
+    margin-bottom: 5vh;
+}
+.PageContact2{
+    margin-bottom: 10%;
+}
+
+.map{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+
+/*________________________________________________FIN_PAGE_CONTACT_______________________________________________________________*/
+
+/*_________________________________________________PAGE RAJOINDRE________________________________________________________________*/
+
+.rejoindreh1{
+    margin-top: 4vh;
+
+}
+.Rejoindre{
+    margin-left: 15vw;
+    margin-right: 15vw;
+    text-align: justify;
+    line-height: 5vh;
+    margin-bottom: 5vh;
+}
+
+/*Début Formulaire*/
+
+fieldset, .formContact{
+    margin: auto;
+    border: 0.15rem solid #89C6FF;
+    border-radius: 2rem;
+    border-style:groove;
+    margin-left: 30%;
+    margin-right: 30%;
+    
+
+
+}
+fieldset{
+    margin-bottom: 10%;
+}
+
+legend{
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 2.5vh;
+}
+.formGroup{             /*Pour aligner les champs*/
+    margin: 0.3rem;
+    display: flex;
+    align-items: center;
+    margin-right: 7.5vw; 
+}
+label {
+    width: 5rem;
+    margin-left: 6vw;
+    font-weight: bold;
+}
+input{
+    flex: 1;               /* les inputs prennent tout l’espace restant */
+    padding: 2px;
+    
+}
+textarea{
+    width: 250px;
+    height: 100px;
+}
+.pjInput{               /*toujours la stylisation des bouton de pièces jointes*/
+    font-size: 0.5rem;
+    font-weight: bold;
+    margin-top: 2.5vh;
+}
+.button{                        /*Stylisation du bouton envoyer niveau police*/
+    font-size: 0.8rem;
+    font-weight: bold;
+
+}
+#button, #buttonContact{                        /*Stylisation du bouton envoyer niveau emplacement*/
+    text-align: center;
+    margin-top: 1.5vh;
+    margin-bottom: 2vh;
+}
+.labelPJ{               /*Uniquement pour les labels des pièces jointes*/
+    margin-left: 6.5vw;/*4.5vw*/
+}
+/*style supplémentaire facultatif*/
+input:hover{
+    color: rgb(255, 0, 0);
+}
+/*Fin formulaire*/
+
+/*________________________________________________________FIN_PAGE_REJOINDRE_________________________________________________*/
+
+/*-------------------------------------------------MENTIONS LEGALES----------------------------------------------------------*/
+
+.h1mention{
+    text-decoration:none;
+}
+.mention{
+    margin: 5% 15% 10% 12%;
+    line-height: 2rem;
+
+}
+.rouge{
+    color: rgb(255, 0, 0);
+    text-decoration:underline;
+    background-color: yellow;
+}
+.mention h4{
+    color: rgb(193, 0, 0);
+    margin: 1.5rem 0rem 0.5rem 0rem;
+    font-size: 1.2rem;
+    text-decoration: underline;
+}

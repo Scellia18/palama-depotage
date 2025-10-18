@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" media="screen and (min-width: 801px)" href="/css/index.css">
+	<link rel="stylesheet" media="screen and (max-width: 800px)" href="/css/media.css">
+</head>
+
+<body>
+    <header>
+    
+        <div class="header">
+            <img src="/assets/logo.png" alt="Logo de l'entreprise" id="logo">
+
+            <nav>
+                <ul class="navList">
+                    <li><a href="/index.html">Accueil</a></li>
+                    <li><a href="/index.html#NosServices">Nos Services</a></li>
+                    <li><a href="#/Pages/Contact.html">Nous contacter</a></li>
+                    <li><a href="/Pages/Rejoindre.html">Rejoindre notre équipe</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        
+        <!--BANNIERE DE LA PAGE-->
+        <section>
+            <img src="/assets/banniere.jpg" alt="Bannière conteneur" id="banniere">
+        </section>
+        <!--FIN BANNIERE DE LA PAGE-->
+        <section class="PageContact">
+        
+            <h1>EURL PALAMA DEPOTAGE</h1>
+            <p>Dans le cadre d'une prise de renseignement ou pour faire appel à nos services, 
+            n'hésitez pas à nous contacter via le formulaire de contact ci-dessous.
+            </p>
+        </section>
+
+
+<section class="Formulaire"> <!--FORMULAIRE-->
+            <form id="monForm" action="https://formspree.io/f/xnngwonv" method="POST">
+                <input type="hidden" name="_subject" value="Nouveau message depuis le site Palama Dépotage">
+                <!-- <input type="hidden" name="_redirect" value="http://127.0.0.1:5500/Pages/index.html"> -->
+
+                <fieldset class="formContact">
+                    <legend><u>Formulaire de contact</u></legend>
+                    
+                        <div class="formGroup">
+                            <label for="name">Nom :</label>
+                            <input type="text" id="name" name="Name" required>
+
+                        </div><br>
+                        
+                        <div class="formGroup">
+                            <label for="firstname">Prénom :</label>
+                            <input type="text" id="firstname" name="Firstname" required>
+                        </div><br>
+
+                        <div class="formGroup">
+                            <label for="email">Email :</label>
+                            <input type="email" id="email" name="Email" placeholder="nom.prenom@exemple.fr" required>
+                        </div><br>
+            
+                        <div class="formGroup">
+                            <label for="phone">Téléphone :</label>
+                            <input type="tel" id="phone" name="Phone" value="+262" pattern="[\d\s+]{10,15}"> 
+                        </div><br>
+
+                        <div class="formGroup"> 
+                            <label for="message">Message :</label>
+                            <textarea name="Message" id="message" placeholder="Ecrivez votre message ici..." required></textarea>
+                        </div>
+
+                   
+                        
+                    <!--Bouton d'envoi-->
+                        <div id="buttonContact">
+                            <input class="button" type="submit" name="boutonValider" value="📤 Envoyer votre message">
+                        </div>
+                    <!--Bouton d'envoi-->
+
+                </fieldset>
+            </form>
+            <!--FIN FORMULAIRE-->
+
+
+
+
+        <section class="PageContact2">
+
+        <p><u>Adresse</u> : <a href="https://maps.app.goo.gl/eRb6FniQQ9XHuW5P7">25 Chemin Bancoule, 97432 Saint-Pierre, Réunion.</a></p>
+        <span class="map"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3125.9720539580244!2d55.45201086976618!3d-21.294089823208957!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2182a0515859342b%3A0x3c7ce459fe093564!2s25%20Chem.%20Bancoule%2C%20Saint-Pierre%2097432%2C%20La%20R%C3%A9union!5e0!3m2!1sfr!2sfr!4v1758361078960!5m2!1sfr!2sfr" 
+            width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </span>
+        <p><em>Nous sommes impatients de collaborer avec vous.<br> À très bientôt.</em></p>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy;Copyright 2025 - EURL PALAMA DEPOTAGE &nbsp;-</p>
+        <p class="mentions">Tous droits réservés<br><a href="mentions.html">Mentions Légales</a></p>
+        
+    </footer>
+
+    <script src="/js/script.js"></script>
+</body>
+</html>

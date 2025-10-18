@@ -1,0 +1,261 @@
+@media screen and (max-width: 800px){
+    
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, footer {
+    color: #002C84;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.75rem;
+}
+.header {
+    display: flex;
+    gap: /*3vw;*/ 2vw;
+    background-color: #89C6FF;
+    align-items: center;
+    /*justify-content: space-evenly;*/
+    justify-content: space-evenly;
+}
+#logo{
+    width: 12%;
+    height: auto;
+    margin-left: 2%;
+}
+.navList{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    gap: 3vw;
+    font-size: 0.6rem;
+    align-items: center;
+    
+}
+nav{
+    margin-right: 1.5%;
+}
+#banniere {
+    width: 100%;
+    height: auto;
+    opacity: 90%;
+    object-fit: cover;
+    margin-top: 1rem;
+}
+h1 {
+    text-align: center;
+    margin: 1.5rem auto;
+    font-size: 1rem;
+    text-decoration: underline;
+}
+.description {
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 10%;
+    line-height: 1.5rem;
+    text-align: justify;
+}
+.NosServices{
+    margin: 0% 3% 0% 3%;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    line-height: 1.5rem;
+    justify-content: center;
+}
+h2 {
+    margin: 0% 8% 0.5% 8%;
+    font-size: 0.85rem;
+    text-decoration: underline;
+    /* display: flex; */
+    /* align-self: flex-start; */
+}
+.ListServiceItalic {
+    margin-left: 5%;
+    /*font-size: small;*/
+    font-style: italic;
+    font-size: 0.60rem;
+    
+}
+ul li{
+    list-style: none;
+}
+#ImageStock {
+    /* justify-content: center; */
+    width: 35%;
+    height: auto;
+    margin: 0 auto;
+    /* display: block; */
+    margin-top: 10%;
+    align-items: center;
+    /* justify-content: center; */
+}
+.DescriptionFilmage {
+    margin: 5% 5% 10% 5%;
+}
+h3 {
+    margin-bottom: 8%;
+    text-align: center;
+    font-size: 0.7rem;
+    margin-top: 10%;
+}
+.filmage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    text-align: left;
+    line-height: 1.5rem;
+}
+#paletteFilme {
+    width: 35%;
+    height: auto;
+    /* margin: 0 auto; */
+    /* display: block; */
+    /* margin-bottom: 10%; */
+}
+.footer {
+    background-color: #89C6FF;
+    padding: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    gap: 0.5rem;
+    font-size: 0.7rem;
+}
+.mentions a {
+    line-height: 1.2rem;
+    text-decoration: none;
+}
+
+
+
+/*style liens*/
+a:hover{
+    color: rgb(153, 0, 255);
+    font-size: 0.65rem;
+}
+
+a:active{
+    color: rgb(255, 105, 202);
+}
+/*____________________________________________________________________________________________________________________________*/
+
+
+/*____________________________________________________PAGE CONTACT_______________________________________________________________*/
+
+.PageContact, .PageContact2, .PageContact p{
+    text-align: center;
+    line-height: 1.3rem;
+    margin: 2% ;
+}
+.PageContact2{
+    margin-bottom: 10%;
+}
+
+.map{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 5vh;
+    margin-bottom: 5vh; */
+    margin: 5vh 2vw 5vh 2vw;
+}
+/*________________________________________________FIN_PAGE_CONTACT_______________________________________________________________*/
+
+/*_________________________________________________PAGE RAJOINDRE________________________________________________________________*/
+.Rejoindre {
+    text-align: justify;
+    line-height: 1.2rem;
+    margin: 2%;
+}
+.rejoindreh1{
+    margin-top: 4vh;
+
+}
+#button, #buttonContact{
+    text-align: center;
+    margin-top: 1.5vh;
+    margin-bottom: 1.5vh;
+}
+.button{
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+fieldset, .formContact {
+    border: 0.15rem solid #89C6FF;
+    border-radius: 2rem;
+    border-style: groove;
+    margin: auto;
+    max-width: 400px; 
+}
+form{
+    margin-top: 8%;
+    margin-bottom: 10%; 
+}
+textarea{
+    width: 255px;
+    height: 100px;
+}
+
+
+legend{
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 2.5vh;
+}
+.formGroup{
+    margin: 0.3rem;
+    display: flex;
+    align-items: center;
+    margin-right: 4vw;/*jouer le dessus 4vw*/
+}
+
+label {
+    width: 5rem;   /* environ 8 caractères de large, adaptable */
+    margin-left: 4vw;/*4vw*/
+    font-weight: bold;
+}
+input{
+    flex: 1;               /* les inputs prennent tout l’espace restant */
+    padding: 1px;
+}
+.pjInput{
+    font-size: 0.5rem;
+    font-weight: bold;
+    margin-top: 2vh;
+}
+.labelPJ{
+    margin-left: 4.5vw;
+}
+input:hover{
+    color: rgb(255, 0, 0);
+}
+
+/*-------------------------------------------------MENTIONS LEGALES----------------------------------------------------------*/
+
+.h1mention{
+    text-decoration:none;
+}
+.mention{
+    margin: 5% 5% 10% 5%;
+    line-height: 1.2rem;
+
+}
+.rouge{
+    color: rgb(255, 0, 0);
+    text-decoration:underline;
+    background-color: yellow;
+}
+.mention h4{
+    color: rgb(193, 0, 0);
+    margin: 1.5rem 0rem 0.5rem 0rem;
+    font-size: 0.85rem;
+    text-decoration: underline;
+}
