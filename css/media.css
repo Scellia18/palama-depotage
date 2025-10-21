@@ -39,6 +39,9 @@ body, footer {
 nav{
     margin-right: 1.5%;
 }
+nav a, footer a{
+    color: #001235;
+}
 #banniere {
     width: 100%;
     height: auto;
@@ -138,12 +141,12 @@ h3 {
 
 /*style liens*/
 a:hover{
-    color: rgb(153, 0, 255);
+    color: rgb(152, 0, 0);
     font-size: 0.65rem;
 }
 
 a:active{
-    color: rgb(255, 105, 202);
+    color: rgb(255, 0, 0);
 }
 /*____________________________________________________________________________________________________________________________*/
 

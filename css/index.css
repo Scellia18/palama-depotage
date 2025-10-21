@@ -177,10 +177,7 @@ a:hover{
     color: rgb(152, 0, 0);
     font-size: 1.2rem;
 }
-.over:hover{
-    color: rgb(0, 153, 255);
-    font-size: 1.2rem;
-}
+
 
 a:active{
     color: rgb(255, 0, 0);
