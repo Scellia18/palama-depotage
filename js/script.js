@@ -1,44 +1,29 @@
-document.getElementById("monForm").addEventListener("submit", function(e) {
-    e.preventDefault(); // empêche l’envoi automatique du formulaire
+// Fonction générale pour valider un formulaire
+function gererFormulaire(formId, messageSucces) {
+    const form = document.getElementById(formId);
+    if (!form) return; // Si le formulaire n'existe pas sur la page, on sort
 
-    // Récupérer tous les champs obligatoires
-    let champsObligatoires = this.querySelectorAll("[required]");
-    let toutRempli = true;
+    form.addEventListener("submit", function(e) {
+        e.preventDefault(); // Empêche l'envoi automatique
 
-    champsObligatoires.forEach(champ => {
-      if (!champ.value.trim()) { // si vide
-        toutRempli = false;
-      }
+        let toutRempli = true;
+
+        // Vérification des champs obligatoires
+        this.querySelectorAll("[required]").forEach(champ => {
+            if (!champ.value.trim()) toutRempli = false;
+        });
+
+        if (toutRempli) {
+            alert(messageSucces);
+            this.submit(); // Décommenter si tu veux envoyer réellement le formulaire
+        } else {
+            alert("⚠️ Merci de remplir tous les champs obligatoires.");
+        }
     });
+}
 
-    if (toutRempli) {
-      alert("Votre candidature à bien été envoyé !");
-      // Ici, vous pouvez soumettre le formulaire si besoin :
-      this.submit();
-    } else {
-      alert("⚠️ Merci de remplir tous les champs obligatoires.");
-    }
-});
+// Formulaire candidature (monForm) – fichiers facultatifs
+gererFormulaire("monForm", "Votre candidature a bien été envoyée !");
 
-
-document.getElementById("monForm2").addEventListener("submit", function(e) {
-    e.preventDefault(); // empêche l’envoi automatique du formulaire
-
-    // Récupérer tous les champs obligatoires
-    let champsObligatoires = this.querySelectorAll("[required]");
-    let toutRempli = true;
-
-    champsObligatoires.forEach(champ => {
-      if (!champ.value.trim()) { // si vide
-        toutRempli = false;
-      }
-    });
-
-    if (toutRempli) {
-      alert("Votre message à bien été envoyé !");
-      // Ici, vous pouvez soumettre le formulaire si besoin :
-      this.submit();
-    } else {
-      alert("⚠️ Merci de remplir tous les champs obligatoires.");
-    }
-});
+// Formulaire contact/message (monForm2)
+gererFormulaire("monForm2", "Votre message a bien été envoyé !");

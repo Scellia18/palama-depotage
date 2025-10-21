@@ -76,7 +76,8 @@ ul li{
 
 h1, .h1mention{                                 /*Même paramètre de h1 pour toutes les pages*/
     text-align: center;
-    margin: 1.5rem auto;
+    /* margin: 1.5rem auto; */
+    margin: 1.5rem 1rem 1.5rem 1rem;
     font-size: 1.5rem;
     text-decoration: underline;
 
@@ -103,10 +104,12 @@ h2{
 }
 .NosServices{
     /*définition des marges*/
-    margin: 0% 8% 0% 8%;
+    /* margin: 0% 8% 0% 8%; */
+    margin-left: 15%;
+    margin-right: 15%;
     display: flex;
     align-items: center;
-    gap: 5rem;
+    gap: 15%; /*5rem*/
     line-height: 3rem;
     font-size: 1.15rem;
 }
@@ -118,7 +121,7 @@ h2{
 }
 
 #ImageStock{
-    width: 22%;
+    width: 30%; /*22%*/
     height: auto;
 }
 ul li {
@@ -181,16 +184,15 @@ a:active{
 
 /*____________________________________________________PAGE CONTACT_______________________________________________________________*/
 
-.PageContact, .PageContact2{
+.PageContact{
     text-align: center;
     line-height: 5vh;
     margin-top: 4vh;
 }
-.PageContact{
-    margin-bottom: 5vh;
-}
+
 .PageContact2{
     margin-bottom: 10%;
+    text-align: center;
 }
 
 .map{
@@ -213,14 +215,18 @@ a:active{
     margin-left: 15vw;
     margin-right: 15vw;
     text-align: justify;
-    line-height: 5vh;
+    line-height: 4vh;
     margin-bottom: 5vh;
 }
 
 /*Début Formulaire*/
-
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 fieldset, .formContact{
-    margin: auto;
+    margin: 5% 20% 5% 20%;
     border: 0.15rem solid #89C6FF;
     border-radius: 2rem;
     border-style:groove;
@@ -247,18 +253,20 @@ legend{
     margin-right: 7.5vw; 
 }
 label {
-    width: 5rem;
+    width: 8rem;
     margin-left: 6vw;
     font-weight: bold;
 }
 input{
     flex: 1;               /* les inputs prennent tout l’espace restant */
-    padding: 2px;
+    padding: 5px;/*2px*/
+    border: 1px solid #002C84;
     
 }
 textarea{
     width: 250px;
     height: 100px;
+    border: 1px solid #002C84;
 }
 .pjInput{               /*toujours la stylisation des bouton de pièces jointes*/
     font-size: 0.5rem;
@@ -274,6 +282,7 @@ textarea{
     text-align: center;
     margin-top: 1.5vh;
     margin-bottom: 2vh;
+  
 }
 .labelPJ{               /*Uniquement pour les labels des pièces jointes*/
     margin-left: 6.5vw;/*4.5vw*/
