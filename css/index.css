@@ -54,16 +54,18 @@ ul li{
     justify-content: space-between;
     list-style: none;
     gap: 10vw; /*Espacement entre les liens*/
-    font-size: 1rem;
+    font-size: 1.1rem;
 }
-
+nav a, footer a{
+    color: #001235;
+}
 /*_________________________________________________FIN_HEADER_____________________________________*/
 
 /*-----------------------------------------------BANNIERE----------------------------------------*/
 
 #banniere{
     width: 100%;    /*Prendre toute la largeur*/
-    height: 22rem;   /*Gérer la hauteur*/
+    height: 30rem;   /*Gérer la hauteur*/
     max-width: 100%;
     opacity: 90%;
     object-fit: cover;
@@ -77,19 +79,19 @@ ul li{
 h1, .h1mention{                                 /*Même paramètre de h1 pour toutes les pages*/
     text-align: center;
     /* margin: 1.5rem auto; */
-    margin: 1.5rem 1rem 1.5rem 1rem;
+    margin: 2.5rem 1rem 1.5rem 1rem;
     font-size: 1.5rem;
     text-decoration: underline;
 
 }
 .description{
     /*définition des marges*/
-    margin-top: 5%;
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-top: 2%;
+    margin-left: 25%;
+    margin-right: 25%;
     margin-bottom: 10%;
     /*réajuster les marges si necessaire*/
-    line-height: 2.2rem; /*interligne*/
+    line-height: 2.5rem; /*interligne*/
     text-align: justify;
 
 }
@@ -108,15 +110,15 @@ h2{
     margin-left: 15%;
     margin-right: 15%;
     display: flex;
-    align-items: center;
+    align-items:center;
     gap: 15%; /*5rem*/
     line-height: 3rem;
-    font-size: 1.15rem;
+    font-size: 1.2rem;
 }
 
 .ListServiceItalic{
     margin-left: 5%;
-    font-size: 0.95rem;
+    font-size: 1rem;
     font-style: italic;
 }
 
@@ -172,12 +174,16 @@ h3{
 /*---STYLE DES LIENS---*/
 
 a:hover{
-    color: rgb(153, 0, 255);
-    font-size: 0.95rem;
+    color: rgb(152, 0, 0);
+    font-size: 1.2rem;
+}
+.over:hover{
+    color: rgb(0, 153, 255);
+    font-size: 1.2rem;
 }
 
 a:active{
-    color: rgb(255, 105, 202);
+    color: rgb(255, 0, 0);
 }
 
 
@@ -187,7 +193,6 @@ a:active{
 .PageContact{
     text-align: center;
     line-height: 5vh;
-    margin-top: 4vh;
 }
 
 .PageContact2{
