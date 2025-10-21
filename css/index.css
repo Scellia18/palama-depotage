@@ -272,6 +272,7 @@ textarea{
     font-size: 0.5rem;
     font-weight: bold;
     margin-top: 2.5vh;
+    border: none;
 }
 .button{                        /*Stylisation du bouton envoyer niveau police*/
     font-size: 0.8rem;

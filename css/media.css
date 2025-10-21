@@ -202,6 +202,8 @@ form{
 textarea{
     width: 255px;
     height: 100px;
+    border: 1px solid #002C84;
+
 }
 
 
@@ -225,12 +227,15 @@ label {
 }
 input{
     flex: 1;               /* les inputs prennent tout l’espace restant */
-    padding: 1px;
+    padding: 5px;
+    border: 1px solid #002C84;
+
 }
 .pjInput{
     font-size: 0.5rem;
     font-weight: bold;
     margin-top: 2vh;
+    border: none;
 }
 .labelPJ{
     margin-left: 4.5vw;
