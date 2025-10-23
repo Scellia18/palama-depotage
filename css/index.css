@@ -87,13 +87,12 @@ h1, .h1mention{                                 /*Même paramètre de h1 pour to
 .description{
     /*définition des marges*/
     margin-top: 2%;
-    margin-left: 25%;
-    margin-right: 25%;
+    margin-left: 20%;
+    margin-right: 20%;
     margin-bottom: 10%;
     /*réajuster les marges si necessaire*/
     line-height: 2.5rem; /*interligne*/
     text-align: justify;
-
 }
 
 /*_________________________________________FIN_SECTION_DESCRIPTION___________________________________*/
@@ -309,7 +308,7 @@ input:hover{
 
 }
 .rouge{
-    color: rgb(255, 0, 0);
+    color: rgb(193, 0, 0);
     text-decoration:underline;
     background-color: yellow;
 }
