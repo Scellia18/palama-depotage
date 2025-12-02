@@ -318,3 +318,44 @@ input:hover{
     font-size: 1.2rem;
     text-decoration: underline;
 }
+/*---------------------------------------------------REMERCIEMENT------------------------------------*/
+.remerciement{
+    margin: 5% 25% 5% 25%;
+    padding: 2rem 2rem 5rem 2rem;
+    border: 2px solid #89C6FF;
+    border-radius: 2rem ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.remerciement h1{
+    text-align: center;
+    text-decoration: none;
+}
+.remerciement a:hover{
+    font-size: 1rem;
+
+}
+.remerciement a{
+    font-size: 1rem;
+    color: #001235;
+    text-decoration: none;
+}
+#boutonMerci{
+    display: block;
+    margin: 0 auto;
+    background-color: #89c6ff68;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    border: 1px solid #001235;
+}
+.merci{
+    text-align: center;
+    margin: 2rem;
+    line-height: 1.5rem;
+}
+#messageEnvoye{
+    width: 30%;
+    height: auto;
+   
+}
