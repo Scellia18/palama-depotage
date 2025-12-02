@@ -1,4 +1,4 @@
-function gererFormulaire(formId, messageSucces) {
+function gererFormulaire(formId) {
     const form = document.getElementById(formId);
     if (!form) return;
 
@@ -17,9 +17,6 @@ function gererFormulaire(formId, messageSucces) {
             return;
         }
 
-        // Affiche ton message
-        alert(messageSucces);
-
         // Envoi du formulaire vers Formspree
         const data = new FormData(this);
 
@@ -29,10 +26,11 @@ function gererFormulaire(formId, messageSucces) {
             headers: { "Accept": "application/json" }
         });
 
-        // Redirection manuelle GRATUITE
+        // Redirection manuelle GRATUITE vers la page Merci
         window.location.href = "https://www.palama-depotage.re/pages/merci.html";
     });
 }
 
-gererFormulaire("monForm", "Votre candidature a bien été envoyée !");
-gererFormulaire("monForm2", "Votre message a bien été envoyé !");
+// Appel pour les formulaires
+gererFormulaire("monForm");
+gererFormulaire("monForm2");
