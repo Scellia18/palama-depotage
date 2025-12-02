@@ -1,0 +1,11 @@
+# Active le moteur de réécriture
+RewriteEngine On
+
+# Si l'URL ne correspond pas à un fichier réel ...
+RewriteCond %{REQUEST_FILENAME} !-f
+
+# ... et ne correspond pas à un dossier réel
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# Alors rediriger vers dossier/index.html
+RewriteRule ^([^/]+)/?$ $1/index.html [L]
