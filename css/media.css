@@ -187,12 +187,17 @@ a:active{
 
 #button, #buttonContact{
     text-align: center;
-    margin-top: 1.5vh;
-    margin-bottom: 1.5vh;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 .button{
     font-size: 0.8rem;
     font-weight: bold;
+    background-color: #89c6ff68;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    border: 1px solid #001235;
+    color: #001235;
 }
 fieldset, .formContact {
     border: 0.15rem solid #89C6FF;

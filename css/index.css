@@ -278,13 +278,16 @@ textarea{
 .button{                        /*Stylisation du bouton envoyer niveau police*/
     font-size: 0.8rem;
     font-weight: bold;
-
+    background-color: #89c6ff68;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    border: 1px solid #001235;
+    color: #001235;
 }
 #button, #buttonContact{                        /*Stylisation du bouton envoyer niveau emplacement*/
     text-align: center;
-    margin-top: 1.5vh;
-    margin-bottom: 2vh;
-  
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 .labelPJ{               /*Uniquement pour les labels des pièces jointes*/
     margin-left: 6.5vw;/*4.5vw*/
