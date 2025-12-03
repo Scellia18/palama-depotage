@@ -65,7 +65,7 @@ nav a, footer a{
 
 #banniere{
     width: 100%;    /*Prendre toute la largeur*/
-    height: 30rem;   /*Gérer la hauteur*/
+    height: 28rem;   /*Gérer la hauteur*/
     max-width: 100%;
     opacity: 90%;
     object-fit: cover;
@@ -208,10 +208,10 @@ a:active{
 
 /*_________________________________________________PAGE RAJOINDRE________________________________________________________________*/
 
-.rejoindreh1{
+/* .rejoindreh1{
     margin-top: 4vh;
 
-}
+} */
 .Rejoindre{
     margin-left: 15vw;
     margin-right: 15vw;
