@@ -23,7 +23,9 @@ body, footer{
 ul li{
     list-style: none;
 }
-
+.footer{
+    color:#002C84;
+}
 /*_______________________________________________FIN_GENERAL______________________________________*/
 
 
@@ -57,7 +59,7 @@ ul li{
     font-size: 1.1rem;
 }
 nav a, footer a{
-    color: #001235;
+    color:#002C84;
 }
 /*_________________________________________________FIN_HEADER_____________________________________*/
 
@@ -173,8 +175,7 @@ h3{
 /*---STYLE DES LIENS---*/
 
 a:hover{
-    color: rgb(152, 0, 0);
-    font-size: 1.2rem;
+    color: rgb(0, 0, 255);
 }
 
 

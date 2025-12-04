@@ -17,7 +17,7 @@ body, footer {
 .header {
     display: flex;
     gap: /*3vw;*/ 2vw;
-    background-color: rgba(138, 198, 255, 0.408);
+    background-color: #8ac6ff68;
     align-items: center;
     /*justify-content: space-evenly;*/
     justify-content: space-evenly;
@@ -40,7 +40,7 @@ nav{
     margin-right: 1.5%;
 }
 nav a, footer a{
-    color: #001235;
+    color:#002C84;
 }
 #banniere {
     width: 100%;
@@ -143,8 +143,7 @@ h3 {
 
 /*style liens*/
 a:hover{
-    color: rgb(152, 0, 0);
-    font-size: 0.65rem;
+    color: rgb(0, 0, 255);
 }
 
 a:active{
