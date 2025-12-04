@@ -35,7 +35,7 @@ ul li{
 .header{
     display: flex;
     gap: 10vw; /*Espace entre logo/navbar */
-    background-color: #89C6FF;
+    background-color: #89c6ff68;
     align-items: center;
 }
 
@@ -91,8 +91,8 @@ h1, .h1mention{                                 /*Même paramètre de h1 pour to
     margin-right: 20%;
     margin-bottom: 10%;
     /*réajuster les marges si necessaire*/
-    line-height: 2.5rem; /*interligne*/
-    text-align: justify;
+    line-height: 2rem; /*interligne*/
+    text-align: left;
 }
 
 /*_________________________________________FIN_SECTION_DESCRIPTION___________________________________*/
@@ -157,7 +157,7 @@ h3{
 /*------------------------------------------------FOOTER--------------------------------------------------*/
 
 .footer{
-    background-color: #89C6FF;
+    background-color: #89c6ff68;
     padding: 3%;
     display: flex;
     justify-content:center;

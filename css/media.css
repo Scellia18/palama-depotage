@@ -17,7 +17,7 @@ body, footer {
 .header {
     display: flex;
     gap: /*3vw;*/ 2vw;
-    background-color: #89C6FF;
+    background-color: rgba(138, 198, 255, 0.408);
     align-items: center;
     /*justify-content: space-evenly;*/
     justify-content: space-evenly;
@@ -62,7 +62,7 @@ h1 {
     margin-right: 5%;
     margin-bottom: 10%;
     line-height: 1.5rem;
-    text-align: justify;
+    text-align: left;
 }
 
 
@@ -126,7 +126,7 @@ h3 {
     /* margin-bottom: 10%; */
 }
 .footer {
-    background-color: #89C6FF;
+    background-color: #89c6ff68;
     padding: 2%;
     display: flex;
     justify-content: center;
@@ -176,8 +176,8 @@ a:active{
 
 /*_________________________________________________PAGE RAJOINDRE________________________________________________________________*/
 .Rejoindre {
-    text-align: justify;
-    line-height: 1.2rem;
+    text-align: left;
+    line-height: 1.5rem;
     margin: 5%;
 }
 /* .rejoindreh1{
